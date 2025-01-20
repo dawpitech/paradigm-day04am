@@ -11,11 +11,11 @@ void mul_div_long(int a, int b, int *mul, int *div)
 {
     if (mul == NULL || div == NULL)
         return;
-    *mul = a*b;
+    *mul = a * b;
     if (b == 0)
         *div = 42;
     else
-        *div = a/b;
+        *div = a / b;
 }
 
 void mul_div_short(int *a, int *b)
