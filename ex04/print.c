@@ -26,7 +26,7 @@ void print_reverse(const char *str)
 
 void print_upper(const char *str)
 {
-    for (int i = 0; i < (int) strlen(str); i++)
+    for (int i = 0; i < (int) strlen(str) - 1; i++)
         printf("%c", toupper(str[i]));
     printf("\n");
 }
