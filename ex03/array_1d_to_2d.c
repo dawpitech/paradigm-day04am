@@ -9,7 +9,8 @@
 
 #include "array_1d_to_2d.h"
 
-static void generate_2darray(const size_t height, const size_t width, int ***array)
+static void generate_2darray(const size_t height, const size_t width,
+    int ***array)
 {
     if (array == NULL)
         return;
@@ -19,7 +20,8 @@ static void generate_2darray(const size_t height, const size_t width, int ***arr
     }
 }
 
-static void populate_2darray(const int *array, size_t height, size_t width, int ***res)
+static void populate_2darray(const int *array, size_t height, size_t width,
+    int ***res)
 {
     int array_count = 0;
 
