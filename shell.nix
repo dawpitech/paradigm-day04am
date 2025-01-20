@@ -7,8 +7,5 @@
       criterion
       gdb
       gcovr
-      hexyl
-      imhex
-      ncurses
     ];
 }
