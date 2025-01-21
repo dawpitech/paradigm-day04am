@@ -19,14 +19,14 @@ void print_normal(const char *str)
 
 void print_reverse(const char *str)
 {
-    for (int i = (int) strlen(str); i >= 0; i--)
+    for (int i = (int) strlen(str) - 1; i >= 0; i--)
         printf("%c", str[i]);
     printf("\n");
 }
 
 void print_upper(const char *str)
 {
-    for (int i = 0; i < (int) strlen(str) - 1; i++)
+    for (int i = 0; i < (int) strlen(str); i++)
         printf("%c", toupper(str[i]));
     printf("\n");
 }
